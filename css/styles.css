@@ -1,0 +1,225 @@
+body {
+    background:#E5F2FF;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    background-color: white;
+}
+
+div{
+    text-align: center;
+}
+
+.slider-frame{
+    width: auto;
+    height: auto;
+    margin: 0 0 0;
+    overflow: hidden;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+
+ul, li{
+    list-style: none;
+}
+
+img{
+    padding: auto;
+    justify-content: center;
+}
+
+@media(max-width: 576px){
+    body{
+        font-size: 0.8rem;
+    }
+}
+.color {
+    color: black ;
+}
+
+.row {
+    justify-content: center;
+}
+
+a { 
+    justify-content: center;
+}
+
+.diversidad {
+    padding: auto;
+    width: 60%;
+    height: 100%;
+    background-color: #030037;
+    border-radius: 2%;
+    border: none;
+}
+
+.diversidad:hover{
+    background-color: #0084ff;
+}
+
+
+
+.pers_cult {
+    padding: auto;
+    width: 60%;
+    height: 100%;
+    background-color: #153ac7;
+    border-radius: 2%;
+    border: none;
+}
+
+.pers_cult:hover{
+    background-color: #0084ff;
+}
+
+.direcciones{
+    padding: auto;
+    width: 60%;
+    height: 100%;
+    background-color: #667A85;
+    border-radius: 2%;
+    border: none;
+}
+
+.direcciones:hover{
+    background-color: #0084ff;
+}
+
+.bienestar{
+    padding: auto;
+    width: 60%;
+    height: 100%;
+    background-color: #f4ebe8;
+    border-radius: 2%;
+    border: none;
+}
+
+.bienestar:hover{
+    background-color: #0084ff;
+}
+
+.oculto{
+    display: none;
+    animation: backInLeft;
+    animation-duration: 2s;
+}
+
+.mostrar{
+    display: block;
+}
+
+.desplejable{
+    padding: auto;
+    width: 80%;
+    height: 150%;
+    background-color: #16e4b4;
+    border-color: white;
+    font-size: 100%;
+    color: white
+}
+
+.desplejable:hover{
+    background-color: #153ac7;
+}
+
+.links{
+    padding: auto;
+    width: 60%;
+    height: 100%;
+    background-color: #153ac7;
+    text-transform: uppercase;
+    border-radius: 2%;
+    border: none;
+}
+
+.safeti{
+    padding: auto;
+    width: 60%;
+    height: 100%;
+    background-color: #030037;
+    border-radius: 2%;
+    border: none;
+}
+.links:hover, .safeti:hover{
+    background-color: #0084ff;
+}
+
+.container{
+    position: relative;
+}
+
+.rrss{
+    height: auto;
+    width: 100%;
+}
+
+.fb{
+    height: auto;
+    width: 7%;
+    margin-top: -14%;
+    margin-left: 45%;
+}
+
+.ig{
+    height: auto;
+    width: 7%;
+    margin-top: -14%;
+    margin-left: 2%;
+}
+
+.ico-iss{
+    height: auto;
+    width: 7%;
+    margin-top: -14%;
+    margin-left: 2%;
+}
+
+.yt{
+    height: auto;
+    width: 7%;
+    margin-top: -14%;
+    margin-left: 2%;
+}
+
+.tw{
+    height: auto;
+    width: 7%;
+    margin-top: -14%;
+    margin-left: 2%;
+}
